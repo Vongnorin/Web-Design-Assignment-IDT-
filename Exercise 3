@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <style> 
+        body{ 
+            display: flex; 
+            flex-direction: column; 
+            gap: 10px; 
+            height: 100vh; 
+        } 
+        header{ 
+             
+            background-color: #1e90ff; 
+            border-radius: 10px; 
+            box-shadow: 0 5px #0077ea; 
+            color: white; 
+             
+        } 
+        footer{ 
+             
+             
+            background-color:#4169e1; 
+            border-radius: 10px; 
+            box-shadow: 0 5px #1d44b8; 
+        } 
+        main{ 
+ 
+            flex-grow: 1; 
+            display: flex; 
+            gap: 10px; 
+        } 
+        main>.container{ 
+             
+            width: 90%; 
+            background-color: #3cb371; 
+            box-shadow: 0 5px #2f8d59; 
+            border-radius: 10px; 
+            gap: 10px; 
+             
+        } 
+        main>.side{ 
+            width: 20%; 
+            background-color: #ff6347; 
+            box-shadow: 0 5px #e02200; 
+            border-radius: 10px; 
+        } 
+        .item{ 
+            border-radius: 10px; 
+            box-shadow: 0 5px #226741; 
+            background-color: #2f8d59; 
+            color: white; 
+            text-align: center; 
+            padding:15px; 
+        } 
+        .content{ 
+            display: flex; 
+            flex-wrap: wrap; 
+            align-content: flex-start; 
+            gap: 10px; 
+            padding: 10px; 
+        } 
+        .text{ 
+            padding: 10px; 
+            color: white; 
+            font-size: larger; 
+        } 
+        
+         
+    </style> 
+</head> 
+<body> 
+    <header> 
+        <div class="text">Header</div> 
+    </header> 
+    <main>  
+        <div class="container"> 
+            <div class="text">Main</div> 
+        <div class="content"> 
+            <div class="item">item</div> 
+            <div class="item">item</div> 
+            <div class="item">item</div> 
+            <div class="item">item</div> 
+            <div class="item">item</div> 
+            <div class="item">item</div> 
+            <div class="item">item</div> 
+            <div class="item">item</div> 
+            <div class="item">item</div> 
+            <div class="item">item</div> 
+            <div class="item">item</div> 
+        </div> 
+        </div> 
+        <div class="side"> 
+            <div class="text">Sider</div> 
+        </div> 
+    </main> 
+         
+    <footer> 
+        <div class="text">Footer</div> 
+    </footer> 
+ 
+     
+</body> 
+</html>
